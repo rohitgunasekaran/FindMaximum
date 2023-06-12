@@ -10,8 +10,21 @@ To write a program to find the maximum of a list of numbers.
 3.	Return the maximum value
 ## Program:
 
+
 i)	# To find the maximum of marks using the list method sort.
 ```Python
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: 
+RegisterNumber: 
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i > max:
+            max = i
+    return max
+    
 
 
 
@@ -19,6 +32,17 @@ i)	# To find the maximum of marks using the list method sort.
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: 
+RegisterNumber: 
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i > max:
+            max = i
+    return max
 
 
 
@@ -26,7 +50,17 @@ ii)	# To find the maximum marks using the list method max().
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
-
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: 
+RegisterNumber: 
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i > max:
+            max = i
+    return max
 
 
 ```
@@ -34,6 +68,10 @@ iii) # To find the maximum marks without using builtin functions.
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
+![image](https://github.com/rohitgunasekaran/FindMaximum/assets/119404546/30e02d3c-4544-465f-809f-c20b698bfd44)
+![image](https://github.com/rohitgunasekaran/FindMaximum/assets/119404546/bd35db25-2fcd-434e-aca7-90cada3068c8)
+![image](https://github.com/rohitgunasekaran/FindMaximum/assets/119404546/51bed6c5-a73d-4563-a009-6bb6a8c1a04c)
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
